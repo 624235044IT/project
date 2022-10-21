@@ -1,0 +1,52 @@
+body {
+    line-height: 22px;
+    margin: 0;
+    -webkit-font-smoothing: antialiased !important;
+  }
+
+  .container {
+    background-color: #FFFFFF;
+    width: 980px;
+    /* height: 200px; */
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    margin-top: -100px;
+    margin-left: -100px;
+
+  }
+
+  /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+  .row.content {
+    height: 1500px
+  }
+
+  /* Set gray background color and 100% height */
+  .sidenav {
+    background-color: #FFFFFF;
+    height: 100%;
+  }
+
+  /* Set black background color, white text and some padding */
+
+  /* On small screens, set height to 'auto' for sidenav and grid */
+  @media screen and (max-width: 767px) {
+    .sidenav {
+      height: auto;
+      padding: 15px;
+    }
+
+    .row.content {
+      height: auto;
+    }
+  }
+
+  .modal-content {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .displayed {
+    display: block;
+    margin-left: 28%;
+  }

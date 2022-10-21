@@ -1,0 +1,61 @@
+body {
+    line-height: 22px;
+    margin: 0;
+    -webkit-font-smoothing: antialiased !important;
+  }
+
+  .container {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    width: 980px;
+    /* height: 200px; */
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    margin-top: -100px;
+    margin-left: -100px;
+
+  }
+
+  /* Remove the navbar's default margin-bottom and rounded borders */
+  .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+
+  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+  .row.content {
+    height: 2000px
+  }
+
+  /* Set white background color and 100% height */
+  .sidenav {
+    border-radius: 10px;
+    padding-top: 20px;
+    background-color: #ffffff;
+    height: 100%;
+  }
+
+  /* Set black background color, white text and some padding */
+
+  /* On small screens, set height to 'auto' for sidenav and grid */
+  @media screen and (max-width: 767px) {
+    .sidenav {
+      height: auto;
+      padding: 15px;
+    }
+
+    .row.content {
+      height: auto;
+    }
+  }
+
+  .modal-content {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .displayed {
+    display: block;
+    margin-left: 28%;
+  }
